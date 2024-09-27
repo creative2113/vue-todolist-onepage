@@ -1,4 +1,6 @@
-# Vue 3 Todo List
+# Vue 3 To Do List
+
+<p align="center"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></p>
 
 A simple to do list app made with Vue.js 3
 

@@ -20,11 +20,11 @@ function removeTodo(index) {
 
 <template>
   <h1>{{ msg }}</h1>
-  <form v-action="addTodo">
+  <div>
     <p>Message is: {{ newtext }}</p>
     <input v-model="newtext" placeholder="edit me" />
     <button @click="addTodo">Add</button>
-  </form>
+  </div>
   <div>
     <li v-for="({ message }, index) in todos">
       <span>{{ index }}</span>
