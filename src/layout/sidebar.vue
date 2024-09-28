@@ -6,6 +6,7 @@ import { RouterLink } from 'vue-router';
     <h3>Sidebar</h3>
     <nav>
       <RouterLink to="/" class="router-link">Home</RouterLink>
+      <RouterLink to="/about" class="router-link">About</RouterLink>
       <RouterLink to="/todo" class="router-link">To Do List</RouterLink>
     </nav>
   </div>
