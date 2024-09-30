@@ -20,7 +20,7 @@ import Sidebar from './layout/sidebar.vue';
 .main {
   display: flex;
   flex-grow: 1;
-  border-block: solid 1px #42b883aa;
+  border-block: solid 1px #646cff;
 }
 
 .main-view {

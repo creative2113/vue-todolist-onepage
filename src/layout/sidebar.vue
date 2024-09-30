@@ -1,13 +1,12 @@
 <script setup>
-import { RouterLink } from 'vue-router';
 </script>
 <template>
   <div class="side-bar">
     <h3>Sidebar</h3>
     <nav>
-      <RouterLink to="/" class="router-link">Home</RouterLink>
-      <RouterLink to="/about" class="router-link">About</RouterLink>
-      <RouterLink to="/todo" class="router-link">To Do List</RouterLink>
+      <router-link to="/" class="router-link">Home</router-link>
+      <router-link to="/about" class="router-link">About</router-link>
+      <router-link to="/todo" class="router-link">To Do List</router-link>
     </nav>
   </div>
 </template>
@@ -16,7 +15,7 @@ import { RouterLink } from 'vue-router';
 .side-bar {
   width: 20rem;
   padding: 1rem;
-  border-right: solid 1px #42b883aa;
+  border-right: solid 1px #646cff;
 }
 
 .router-link {

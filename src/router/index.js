@@ -1,4 +1,4 @@
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createMemoryHistory, createRouter, createWebHistory } from 'vue-router'
 import Home from '../pages/Home.vue'
 import SinglePageTodoList from '../pages/SinglePageTodoList.vue'
 import About from '../pages/about.vue'
@@ -22,7 +22,8 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createMemoryHistory(),
+  // history: createMemoryHistory(),
+  history: createWebHistory(),
   routes,
 })
 
